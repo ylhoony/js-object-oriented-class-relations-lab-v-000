@@ -16,7 +16,7 @@ class Driver {
     }.bind(this));
   }
   passengers() {
-    return store.passengers.filter((passenger) => {
+    return store.trips.filter((trip) => {
       return 
     })
   }
