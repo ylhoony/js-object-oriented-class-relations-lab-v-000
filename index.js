@@ -15,11 +15,11 @@ class Driver {
       return trip.driverId === this.id;
     }.bind(this));
   }
-  passengers() {
-    return store.passengers.filter(function(passenger) {
-      return trip.driverId === this.id;
-    })
-  }
+  // passengers() {
+  //   return store.passengers.filter(function(passenger) {
+  //     return trip.driverId === this.id;
+  //   })
+  // }
 }
 
 class Passenger {
