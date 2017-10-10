@@ -33,11 +33,11 @@ class Passenger {
       return trip.passengerId === this.id;
     }.bind(this));
   }
-  drivers() {
-    return store.trips.filter((trip) => {
-      return trip. =
-    })
-  }
+  // drivers() {
+  //   return store.trips.filter((trip) => {
+  //     return trip. =
+  //   })
+  // }
 }
 
 class Trip {
