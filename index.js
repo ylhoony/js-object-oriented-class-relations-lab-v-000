@@ -52,7 +52,7 @@ class Trip {
     store.trips.push(this);
   }
   driver(){
-    return store.drivers.filter((driver) => {
+    return store.drivers.filter(function(driver) {
       return driver.id === this.driverId;
     }.bind(this))[0];
   }
