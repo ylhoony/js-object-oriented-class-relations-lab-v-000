@@ -57,7 +57,7 @@ class Trip {
     }.bind(this))[0];
   }
   passenger() {
-    return store.passengers.filter((passenger) => {
+    return store.passengers.filter(function(passenger) {
       return passenger.id === this.passengerId;
     }.bind(this))[0];
   }
