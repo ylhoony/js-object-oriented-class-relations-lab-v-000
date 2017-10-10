@@ -39,7 +39,7 @@ class Trip {
   driver(){
     return store.drivers.filter(function(driver) {
       return driver.id === this.driverId;
-    })
+    }.bind(this))
   }
   passenger() {
     return store.trips.filter(function(trip) {
