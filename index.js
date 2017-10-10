@@ -57,8 +57,8 @@ class Trip {
     }.bind(this));
   }
   passenger() {
-    return store.passengers.filter(function(passenger) {
+    return store.passengers.find(function(passenger) {
       return passenger.id === this.passengerId;
-    }.bind(this))[0];
+    }.bind(this));
   }
 }
