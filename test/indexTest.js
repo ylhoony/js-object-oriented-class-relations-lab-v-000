@@ -1,5 +1,5 @@
 const expect = chai.expect;
- 
+
 describe('drivers', function() {
   describe('creating a new driver', function() {
     describe('store', function() {
