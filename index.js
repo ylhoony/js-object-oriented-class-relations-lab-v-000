@@ -13,7 +13,7 @@ class Driver {
   trips() {
     return store.trips.filter(function(trip) {
       return trip.driverId === this.id;
-    }.bind(this));
+    };
   }
   passengers() {
     return this.trips().map(function(trip) {
@@ -31,7 +31,7 @@ class Passenger {
   trips() {
     return store.trips.filter(function(trip) {
       return trip.passengerId === this.id;
-    }.bind(this));
+    };
   }
   drivers() {
     return this.trips().map(function(trip) {
