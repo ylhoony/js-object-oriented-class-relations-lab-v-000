@@ -37,6 +37,8 @@ class Trip {
     store.trips.push(this);
   }
   driver(){
-    return 
+    return store.trips.filter(function(trip) {
+      return store.trips[driverId] === driver.id;
+    })
   }
 }
