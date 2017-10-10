@@ -16,7 +16,7 @@ class Driver {
     }.bind(this));
   }
   passengers() {
-    return store.passengers.filter(function(passenger) {
+    return store.passengers.filter((passenger) => {
       return 
     })
   }
