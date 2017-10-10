@@ -29,7 +29,6 @@ class Trip {
     if(passenger) {
       this.passengerId = passenger.id;
     }
-
     store.trips.push(this);
   }
   driver(){
